@@ -1,0 +1,45 @@
+#upperdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#maindiv {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: grid;
+    height: 20vh;
+    width: 70vw;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.seal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seal img {
+    height: 15vh;
+    width: 7vw;
+}
+
+#name,
+#solgan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    height: 70%;
+    font-size: 45px;
+}
+
+#solgan {
+    height: 30%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
